@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f4ec869-64d4-4f33-a44b-896e35a70675" name="Default Changelist" comment="" />
+    <list default="true" id="925176bb-ab05-4c55-82d3-075315a9f644" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +13,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1ivMfwb8XuXuwtHzVq2ttPntxQm" />
+  <component name="ProjectId" id="1j1DIi3xqgszeraiyQMRP1uXOvk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,26 +30,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/example" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.main" />
-      <module name="zipCodeChallenge" />
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="ZipCodeChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,9 +60,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZipCodeChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipCodeMergeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZipCodeChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ZipCodeMergeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.ZipCodeMergeTest" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -68,16 +103,61 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f4ec869-64d4-4f33-a44b-896e35a70675" name="Default Changelist" comment="" />
-      <created>1602783718824</created>
+      <changelist id="925176bb-ab05-4c55-82d3-075315a9f644" name="Default Changelist" comment="" />
+      <created>1602962626013</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602783718824</updated>
-      <workItem from="1602783722583" duration="163000" />
+      <updated>1602962626013</updated>
+      <workItem from="1602962630510" duration="5809000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602966707270">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1602966707270" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1440.23.1440.877/0.0.1440.900@0.0.1440.900" timestamp="1602966154406" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1602977494882">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1602977494882" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.0.1440.900@0.0.1440.900" timestamp="1602964525112" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1602977494881">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1602977494881" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/-1440.23.1440.877/0.0.1440.900@0.0.1440.900" timestamp="1602964525111" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1602977494880">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1602977494880" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/-1440.23.1440.877/0.0.1440.900@0.0.1440.900" timestamp="1602964525110" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1602977494882">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1602977494882" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/-1440.23.1440.877/0.0.1440.900@0.0.1440.900" timestamp="1602964525111" />
+    <state x="297" y="46" width="845" height="807" key="find.popup" timestamp="1602963450701">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="46" width="845" height="807" key="find.popup/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1602963450701" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/ZipCodeMergeTest.java</url>
+          <line>23</line>
+          <properties class="org.example.ZipCodeMergeTest" method="testOverlappingRangeToReturnOneRange">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

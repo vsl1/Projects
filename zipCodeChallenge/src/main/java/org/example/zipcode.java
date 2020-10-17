@@ -1,5 +1,7 @@
-package main;
-
+package org.example;
+/**
+ * Create the data model to store zipcodes' lift and right sides.
+ */
 public class zipcode {
     private int left;
     private int right;

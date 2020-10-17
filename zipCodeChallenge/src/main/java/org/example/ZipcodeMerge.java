@@ -1,12 +1,14 @@
-package main;
+package org.example;
 
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
-public class zipcodeMerge {
+/**
+ * Merge the zipcodes' range and return the results.
+ */
+public class ZipcodeMerge {
     public List<zipcode> sortByLeftSides(List<zipcode> zipcodeRangeList) {
-        Collections.sort(zipcodeRangeList, new zipcodeComparator());
+        Collections.sort(zipcodeRangeList, new ZipcodeComparator());
         return zipcodeRangeList;
     }
 

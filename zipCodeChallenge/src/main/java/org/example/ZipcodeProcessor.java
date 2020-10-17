@@ -1,12 +1,15 @@
-package main;
+package org.example;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class zipcodeProcessor {
+/**
+ * Check the input whether valid and load them to the LinkList
+ */
+public class ZipcodeProcessor {
     private String zipcodeRanges;
 
-    public zipcodeProcessor(String zipcodeRanges) {
+    public ZipcodeProcessor(String zipcodeRanges) {
         this.zipcodeRanges = zipcodeRanges;
     }
 
